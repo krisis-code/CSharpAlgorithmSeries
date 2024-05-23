@@ -1,8 +1,8 @@
-﻿/*1 den 100 kadar sayıların toplamı gauss formülü*/
+﻿/*2 den 100 kadar 2 şer artan  sayıların toplamı */
 int sum = 0;
 
-for (int i = 1; i < 100; i++)
-    sum = i * (i + 1) / 2;
+for (int i = 2; i <= 100; i += 2)
+    sum += i; 
 
 
 Console.WriteLine(sum);
