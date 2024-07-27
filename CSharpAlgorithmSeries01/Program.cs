@@ -1,13 +1,22 @@
 ﻿
-/* Ekrandan girilen 2 adet sayının toplanmını bulan algoritma */
+//For
+for (int i = 0; i < 5; i++)
+{
+    Console.WriteLine("For İterasyon: " + i);
+}
 
+//While
+int j = 0;
+while (j < 5)
+{
+    Console.WriteLine("While İterasyon :" +j);
+   j++;
+}
 
-int a, b, sum = 0;
-Console.WriteLine("1. Sayı giriniz");
-a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("2. Sayı giriniz");
-b = Convert.ToInt32(Console.ReadLine());
-sum = a + b;
-Console.WriteLine("İki sayının toplamı = {0}", sum);
-
+//Foreach
+int[] sayilar = { 1, 2, 3, 4, 5 };
+foreach (int sayi in sayilar)
+{
+    Console.WriteLine("Foreach İterasyon: " + sayi);
+}
 
